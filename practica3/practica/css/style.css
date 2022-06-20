@@ -1,0 +1,176 @@
+/**{
+    border: thin solid blue;
+}*/
+
+body{
+    margin: 0px auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+@font-face {
+    font-family: countrysearch;
+    src: url(/practica3/practica/fonts/new_zelek_[allfont.es].ttf);
+}
+
+.white-font{
+    color: #dddddd;
+    text-align: center;
+    text-decoration: none;
+}
+
+#barra-a{
+    height: 60px;
+    background-color: #0071bc;
+}
+
+#barra-a ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#barra-a ul li{
+    display: inline;
+    padding: 0px 70px;
+}
+
+.lista-a{
+    text-decoration: none;
+}
+
+#barra-a ul li a{
+    color: white;
+}
+
+#barra-b{
+    height: 100px;
+    position: relative;
+}
+
+#barra-b div{
+    display: inline;
+}
+
+#countrys{
+    font-family: countrysearch;
+    color: white;
+    font-size: 25px;
+    background-color: #0071bc;
+    margin-left: 10px;
+    padding: 30px 35px 24px;;
+    position: relative;
+}
+
+#search{
+    width: 500px;
+    height: 64px;
+    line-height: 26px;
+    padding: 11px 50px 11px 15px;
+    border: 1px solid #d4d7d9;
+    background-color: #edeff1;
+    margin: 4px 0 0 0;
+    border-radius: 2px 0 0 2px;
+    border-right: 0;
+    font-size: 1.9rem;
+    text-transform: uppercase;
+    color: #575859;
+    position: relative;
+}
+
+#search-icon{
+    position: absolute;
+    padding: 24px;
+    left: 796px;
+    margin-top: 5px;
+    background-color: white;
+}
+
+.icon-left{
+    float: right;
+    margin: 2px;
+}
+
+.icon-left img{
+    width: 72px;
+    height: 56px;
+    padding-top: 10px;
+}
+
+.icon-left span{
+    display: block;
+    text-align: center;
+}
+
+#barra-cont{
+    height: 90px;
+    background-image: url(/practica3/practica/img/sombra_03.png);
+    background-size: contain;
+    background-repeat: repeat-x;
+}
+
+#barra-cont ul{
+    text-align: center;
+    list-style-type: none;
+}
+
+#barra-cont ul li{
+    display: inline;
+    padding: 0px 110px;
+    line-height: 50px;
+}
+
+#barra-cont ul li a{
+    color: #666666;
+}
+
+#mapamundi{
+    width: 90%;
+    height: 600px;
+    margin: auto;
+    background-image: url(/practica3/practica/img/mapamundi.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#nuestros-proyectos{
+    width: 90%;
+    height: 450px;
+    margin: auto;
+    background-color: #000000;
+}
+
+#nuestros-proyectos h1{
+    text-align: center;
+    font-size: 35px;
+}
+
+.img-proyectos{
+    height: 340px;
+    width: 32%;
+    display: inline-block;
+    align-items: center;
+    padding: 0px 5px;
+}
+
+.img-proyectos img{
+    width: 300px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-proyectos div{
+    text-align: center;
+}
+
+.img-proyectos div a{
+    color: #dddddd;
+    text-decoration: none;
+}
+
+#term-cond{
+    text-align: center;
+    background-color: #0071bc;
+    padding: 0px 100px;
+}
